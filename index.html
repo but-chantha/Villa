@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Apartement For Rent</title>
+</head>
+<body>
+    <main class="page">
+        <header class="head">
+            <menu>
+                <div class="logo"><h1>Apartment</h1></div>
+                <label for= "bar" ><i class="fa-solid fa-bars" ></i></label>
+                <input type="checkbox" id="bar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Properties</a></li>
+                    <li><a href="#">Properties Detail</a></li>
+                    <li><a href="#">Contact </a></li>
+                    <li><a href="#"><i class="fa-solid fa-calendar-week"></i> &emsp;Scadule a visit</a></li>  
+                </ul>
+            </menu>
+        </header>
+            <aside>
+                <section id="slide1" class="slidebar">
+                    <div class="content">
+                        <button>Toronto,
+                            <span style="color: orangered;">canada</span>
+                        </button>
+                        <h2>Hurry! <br>Find The Apartment <br>That Really Suits You </h2>
+                    </div>
+                    <div class="group_btn">
+                        <a href="#slide3"> <button><i class="fa-solid fa-angle-left"></i></button></a>
+                        <a href="#slide2"> <button><i class="fa-solid fa-angle-right"></i></button></a>
+                    </div>
+                </section>
+                <section id="slide2" class="slidebar">
+                    <div class="content">
+                        <button>Toronto,
+                            <span style="color: orangered;">canada</span>
+                        </button>
+                        <h2>Hurry! <br>Find The Apartment <br>That Really Suits You </h2>
+                    </div>
+                    <div class="group_btn">
+                        <a href="#slide1"> <button><i class="fa-solid fa-angle-left"></i></button></a>
+                        <a href="#slide3"> <button><i class="fa-solid fa-angle-right"></i></button></a>
+                    </div>
+                </section>
+                <section id="slide3" class="slidebar">
+                    <div class="content">
+                        <button>Toronto,
+                            <span style="color: orangered;">canada</span>
+                        </button>
+                        <h2>Hurry! <br>Find The Apartment <br>That Really Suits You </h2>
+                    </div>
+                    <div class="group_btn">
+                        <a href="#slide2"> <button><i class="fa-solid fa-angle-left"></i></button></a>
+                        <a href="#slide1"> <button><i class="fa-solid fa-angle-right"></i></button></a>
+                    </div>
+                </section>
+            </aside>
+            <section class="Feature" style="margin-top: 50px;">
+                <!-- left feature section -->
+                <div class="feature_apartment_left">
+                    <img class="faImg" src="/image/featured.jpg" alt="">
+                    <div class="note-icon">
+                        <img src="/image/note-icon.png" alt="">
+                    </div>
+                </div>
+                <!-- center feature section -->
+                <div class="feature_apartment_center">
+                    <h4>| Feature</h4>
+                    <h1>Best Appartment & Sea view</h1>
+                    <div class="group-text"> 
+                        <div class="group-checkBox">
+                            <input id="BestToggler" type="checkbox">
+                            <label for="BestToggler">Best useful links ?</label> <br>
+                            <p class="contenttxt">Get the best villa website template in HTML CSS and Bootstrap for your business.
+                                TemplateMo provides you the best free CSS templates in the world.
+                                Please tell your friends about it.</p>
+                        </div>
+                        <div class="group-checkBox">
+                            <input id="DolorToggler" type="checkbox">
+                            <label for="DolorToggler">How does this work ?</label> <br>
+                            <p class="contenttxt">Dolor almesit amet, consectetur adipiscing elit,
+                                sed doesn't eiusmod tempor incididunt ut labore consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="group-checkBox">
+                            <input id="almesitToggler" type="checkbox">
+                            <label for="almesitToggler">Why is Villa Agency the best ?</label> <br>
+                            <p class="contenttxt">Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod
+                                tempor incididunt ut labore consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- right feature section -->
+                <div class="feature_apartment_right">
+                    <slot>
+                        <img src="/image/info-icon-01.png" alt="">
+                        <div class="righttxt">
+                            <h5>250m2</h5> <br>
+                            <p>Total Flat Space</p>
+                        </div>
+                    </slot>
+                    <hr>
+                    <slot>
+                        <img src="/image/info-icon-02.png" alt="">
+                        <div class="righttxt">
+                            <h5>Contract</h5> <br>
+                            <p>Contract Ready</p>
+                        </div>
+                    </slot>
+                    <hr>
+                    <slot>
+                        <img src="/image/info-icon-03.png" alt="">
+                        <div class="righttxt">
+                            <h5>Payment</h5> <br>
+                            <p>Payment Process</p>
+                        </div>
+                    </slot>
+                    <hr>
+                    <slot>
+                        <img src="/image/info-icon-04.png" alt="">
+                        <div class="righttxt">
+                            <h5>Safety</h5> <br>
+                            <p>24/7 Under Control</p>
+                        </div>
+                    </slot>
+                </div>
+            </section>
+           
+            <section class="preview">
+                <div class="preview-title">
+                    <h5>| VIDEO VIEW</h5>
+                    <h1>Get Closer View & Different Feeling</h1>
+                </div>
+                <div class="preview-view">
+                    <img src="/image/video-frame.jpg" alt="">
+                    <a href="https://www.youtube.com/"><i class="fa-solid fa-play"></i></a>
+                </div>
+            </section>
+
+
+            
+    </main>
+</body>
+</html>
