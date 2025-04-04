@@ -806,15 +806,6 @@ slot img{
 }
 
 
-
-
-
-
-
-
-
-
-
 /* xxl  1200px */
 /* xl  1024px */
 /* lg  900px */
@@ -825,9 +816,7 @@ slot img{
     .pro-content-box{
         width: 45%;
     }
-    
 }
-
 @media(max-width:1024px){
     .Feature{
         height: auto;
