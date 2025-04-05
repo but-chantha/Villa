@@ -18,13 +18,278 @@
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./properties.html">Properties</a></li>
                     <li><a href="./detailsProperties.html">Properties Detail</a></li>
-                    <li><a href="./contactUs.html">Contact </a></li>
+                    <li><a href="./contactUs.html">Contact Us </a></li>
                     <li><a href="#"><i class="fa-solid fa-calendar-week"></i> &emsp;Schedule a visit</a></li>  
                 </ul>
             </menu>
         </header>
+
+        <!-- feature section start -->
+        <nav>
+            <!-- left feature section -->
+            <section class="section-left">
+                <img src="./image/single-property.jpg" alt="">
+                <span>Apartment</span>
+                <h1>24 New Street Miami, OR 24560</h1>
+                
+                <p>Get <strong>the best villa agency </strong> HTML CSS Bootstrap Template for your company website.
+                    TemplateMo provides you the <a href="#">best free CSS templates</a> in the world. 
+                    Please tell your friends about it. Thank you. Cloud bread kogi bitters pitchfork shoreditch
+                    tumblr yr succulents single-origin coffee schlitz enamel pin you probably haven't heard of them ugh hella.
+                    <br><br>
+                    When you look for free CSS templates, you can simply type TemplateMo in any search engine website. 
+                    In addition, you can type TemplateMo Digital Marketing, TemplateMo Corporate Layouts, etc. 
+                    Master cleanse +1 intelligentsia swag post-ironic, slow-carb chambray knausgaard PBR&B DSA poutine neutra cardigan hoodie pop-up.</p>
+
+                    <div class="group-text"> 
+                        <div class="group-checkBox">
+                            <input id="BestToggler" type="checkbox">
+                            <label for="BestToggler">Best useful links ?</label> <br>
+                            <p class="contenttxt">Get the best villa website template in HTML CSS and Bootstrap for your business.
+                                TemplateMo provides you the best free CSS templates in the world.
+                                Please tell your friends about it.</p>
+                        </div>
+                        <div class="group-checkBox">
+                            <input id="DolorToggler" type="checkbox">
+                            <label for="DolorToggler">How does this work ?</label> <br>
+                            <p class="contenttxt">Dolor almesit amet, consectetur adipiscing elit,
+                                sed doesn't eiusmod tempor incididunt ut labore consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="group-checkBox">
+                            <input id="almesitToggler" type="checkbox">
+                            <label for="almesitToggler">Why is Villa Agency the best ?</label> <br>
+                            <p class="contenttxt">Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod
+                                tempor incididunt ut labore consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+            </section>
+            <!-- right feature section -->
+            <aside class="section-right">
+                <slot>
+                    <img src="./image/info-icon-01.png" alt="">
+                    <div class="righttxt">
+                        <h5>250m2</h5> <br>
+                        <p>Total Flat Space</p>
+                    </div>
+                </slot>
+                <hr>
+                <slot>
+                    <img src="./image/info-icon-02.png" alt="">
+                    <div class="righttxt">
+                        <h5>Contract</h5> <br>
+                        <p>Contract Ready</p>
+                    </div>
+                </slot>
+                <hr>
+                <slot>
+                    <img src="./image/info-icon-03.png" alt="">
+                    <div class="righttxt">
+                        <h5>Payment</h5> <br>
+                        <p>Payment Process</p>
+                    </div>
+                </slot>
+                <hr>
+                <slot>
+                    <img src="./image/info-icon-04.png" alt="">
+                    <div class="righttxt">
+                        <h5>Safety</h5> <br>
+                        <p>24/7 Under Control</p>
+                    </div>
+                </slot>
+            
+            </aside>
+        </nav>
+        <!-- Feature section End -->
+        <!-- Best Deal Start -->
+        <section class="best-deal">
+            <div class="deal-text">
+                <h6>| BEST DEAL</h6>
+                <h1>Find Your Best Deal Right Now!</h1>
+            </div>
+            <div class="deal-option">
+                <div class="Option-buttons">
+                    <button class="active" onclick="showContainer('appartment', this)">Appartment</button>
+                    <button class="inactive" onclick="showContainer('villa', this)">Villa House</button>
+                    <button class="inactive" onclick="showContainer('penthouse', this)">Penthouse</button>
+                </div>
+                <div id="appartment" class="dealcontainer show">
+                    <div class="content-row">
+                        <div class="content-boxleft">
+                            <ul>
+                                <li>
+                                    <p>Total Flat Space</p>
+                                    <h2>185m2</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Floor number</p>
+                                    <h2>26th</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Number of rooms</p>
+                                    <h2>4</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Parkinng Available</p>
+                                    <h2>Yes</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Payment Process</p>
+                                    <h2>Bank</h2>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content-boxcenter">
+                            <img src="./image/deal-01.jpg" alt="">
+                        </div>
+                        <div class="content-boxright">
+                            <h4>Extra Info About Property</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                do eiusmod tempor pack incididunt ut labore et dolore magna 
+                                aliqua quised ipsum suspendisse.
+                                <br>
+                                <br>
+                                When you need free CSS templates, you can simply type
+                                 TemplateMo in any search engine website. In addition, 
+                                 you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.
+                            </p>
+                            <button>
+                                <a href="#"><i class="fa-solid fa-calendar-week"></i> &emsp;Schedule a visit</a>
+                            </button>
+
+                        </div>
+                    </div> 
+                </div>
+                <div id="villa" class="dealcontainer">
+                    <div class="content-row">
+                        <div class="content-boxleft">
+                            <ul>
+                                <li>
+                                    <p>Total Flat Space</p>
+                                    <h2>250m2</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Floor number</p>
+                                    <h2>26th</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Number of rooms</p>
+                                    <h2>5</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Parking Available</p>
+                                    <h2>Yes</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Payment Process</p>
+                                    <h2>Bank</h2>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content-boxcenter">
+                            <img src="./image/deal-02.jpg" alt="">
+                        </div>
+                        <div class="content-boxright">
+                            <h4>Detail Info About Villa</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                do eiusmod tempor pack incididunt ut labore et dolore magna 
+                                aliqua quised ipsum suspendisse.
+                                <br>
+                                Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents
+                                typewriter shaman DIY kitsch twee taiyaki fixie hella 
+                                venmo after messenger poutine next level humblebrag swag franzen.
+                            </p>
+                            <button>
+                                <a href="#"><i class="fa-solid fa-calendar-week"></i> &emsp;Schedule a visit</a>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="penthouse" class="dealcontainer">
+                    <div class="content-row">
+                        <div class="content-boxleft">
+                            <ul>
+                                <li>
+                                    <p>Total Flat Space</p>
+                                    <h2>320 m2</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Floor number</p>
+                                    <h2>34th</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Number of rooms</p>
+                                    <h2>6</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Parking Available</p>
+                                    <h2>Yes</h2>
+                                </li>
+                                <hr>
+                                <li>
+                                    <p>Payment Process</p>
+                                    <h2>Bank</h2>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content-boxcenter">
+                            <img src="./image/deal-03.jpg" alt="">
+                        </div>
+                        <div class="content-boxright">
+                            <h4>Extra Info About Property</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                do eiusmod tempor pack incididunt ut labore et dolore magna 
+                                aliqua quised ipsum suspendisse.
+                                <br>
+                                Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents
+                                typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after
+                                messenger poutine next level humblebrag swag franzen.
+                            </p>
+                            <button>
+                                <a href="#"><i class="fa-solid fa-calendar-week"></i> &emsp;Schedule a visit</a>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Best Deal End -->
         
     </main>
 
+    <footer>
+        Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. Design: <a href="#">TemplateMo</a> Distribution: <a href="#">ThemeWagon</a>
+    </footer>
+
+
+
+<!-- Script of Best Deal container start -->
+<script>
+function showContainer(containerId, button) {
+    // Hide all containers
+    document.querySelectorAll('.dealcontainer').forEach(div => div.classList.remove('show'));
+    // Show the selected container
+    document.getElementById(containerId).classList.add('show');
+
+    // Update button styles
+    document.querySelectorAll('button').forEach(btn => btn.classList.replace('active', 'inactive'));
+    button.classList.replace('inactive', 'active');
+}
+</script>
+<!-- Script Of Best Deal container End -->
 </body>
 </html>
