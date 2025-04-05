@@ -40,12 +40,16 @@ menu>ul li{
 menu>ul li a{
     text-decoration: none;
     color: black;
+    font-weight: 600;
 }
 menu>ul li a:hover{
     color: var(--mainColor)
 }
 menu>ul li a:focus{
     color: var(--mainColor)
+}
+menu>ul li:nth-child(1) a{
+    color: #f35525;
 }
 menu>ul li:nth-child(5) a{
     padding-left: 35px;

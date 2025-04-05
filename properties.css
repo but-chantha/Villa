@@ -104,13 +104,13 @@ menu>ul>li:nth-child(5)>a>i{
         margin: auto;
         width: 200px;
         color: black;
-        font-size: 13px;
         font-weight: 600;
+        
     }
     h1{
         text-align: center;
         margin-top: 30px;
-        font-size: 45px;
+        font-size: 64px;
         font-weight: 800;
     }
 }
