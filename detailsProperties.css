@@ -90,7 +90,7 @@ menu>ul>li:nth-child(5)>a>i{
 .home-page{
     height: 340px;
     width: 100%;
-    background-image: url(/image/page-heading-bg.jpg);
+    background-image: url(./image/page-heading-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     place-content: center;
